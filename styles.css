@@ -1,0 +1,83 @@
+/* styles.css
+   CSS sencillo para lograr un diseño limpio y profesional.
+   Cada parte tiene comentarios en español para que puedas seguirlo.
+*/
+
+/* Estilo general de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+  color: #1f2937;
+}
+
+/* Contenedor principal para centrar el contenido */
+.main-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 24px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+}
+
+/* Encabezado principal */
+h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: #111827;
+}
+
+/* Subtítulos */
+h2 {
+  margin-top: 2.4rem;
+  font-size: 1.45rem;
+  color: #1f2937;
+  border-left: 4px solid #6366f1;
+  padding-left: 12px;
+}
+
+/* Párrafos legibles */
+p {
+  font-size: 1rem;
+  color: #374151;
+  margin: 1.25rem 0;
+}
+
+/* Tarjeta de advertencia con color distintivo */
+.alert {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+  padding: 18px 20px;
+  border-radius: 16px;
+}
+
+/* Enlaces opcionales si los agregas después */
+a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 560px) {
+  .main-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
