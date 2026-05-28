@@ -5,5 +5,19 @@
     "rol": "Politico",
     "propuesta": "Relleno comunitario",
     "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779935928453,
+    "nombre": "pato lucas",
+    "rol": "politico",
+    "propuesta": "Construcción de parques y zonas verdes",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779936105013,
+    "nombre": "chimuelo",
+    "rol": "activista social",
+    "propuesta": "Educación para todas las comunidades",
+    "estado": "Perfil de práctica académica"
   }
 ]
